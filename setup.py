@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(name='xltojson',
-      version='1.0.0',
+      version='1.1.0',
       description='This python package translates Excel data to JSON',
       author='Vishal Pant',
       author_email='vishalpant.pant65@gmail.com',
