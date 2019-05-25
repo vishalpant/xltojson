@@ -52,7 +52,7 @@ def parse_xl(excel_df):
         This Dictionary is an intermediate data which gets converted to json.
     """
     dict_data = {}
-    dict_data['sub'] = []
+    #dict_data['sub'] = []
     for key in excel_df.keys():
         excel_df[key].fillna(value=" ", inplace=True)
         if key.find('sub') != -1:

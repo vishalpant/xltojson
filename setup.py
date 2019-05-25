@@ -12,7 +12,7 @@ setuptools.setup(name='xltojson',
       long_description=long_description,
       long_description_content_type="text/markdown",
       url="https://github.com/vishalpant/xltojson",
-      packages=setuptools.find_packages(),
+      packages=['xltojson'],
       classifiers=[
           "Programming Language :: Python :: 3",
           "License :: OSI Approved :: MIT License",
